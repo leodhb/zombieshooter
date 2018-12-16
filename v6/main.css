@@ -260,6 +260,9 @@ hr {
 .game-border {
 	border: solid 4px black; 
 	display: inline-block;  
-	transform: translateX(25%)
+	transform: translateX(25%);
+	touch-action: none; 
+	-moz-user-select: none;
+	cursor: inherit;
 }
 
